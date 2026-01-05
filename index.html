@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhushan Khairnar GFX</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> <!-- QR Code Library -->
+<style>
+body { font-family: 'Poppins', sans-serif; margin:0; padding:0; background:#f0f4f8f2; line-height:1.1; }
+header { background: linear-gradient(90deg,#ed2828,#f5da2f); color:white; padding:70px 0; text-align:center; box-shadow:0 8px 6px rgba(0,0,0,0.8);}
+header h1 { margin:0; font-size:3em; }
+nav { margin-top:20px; }
+nav a { margin: 0 15px; color:white; text-decoration:none; font-weight:800; transition:0.3s; }
+nav a:hover { color:#333; }
+section { padding:60px 20px; text-align:center; }
+section h2 { font-size:2em; margin-bottom:20px; color:#333; }
+
+/* Slider */
+.slider { max-width:500px; margin:0 auto; position:relative; border-radius:15px; overflow:hidden; box-shadow:0 6px 12px rgba(0,0,0,0.1);}
+.slides { display:flex; transition:0.5s; }
+.slides img { width:100%; border-radius:15px; }
+.prev, .next { position:absolute; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.5); color:white; font-size:2em; padding:10px; border-radius:50%; cursor:pointer; user-select:none; }
+.prev { left:10px; }
+.next { right:10px; }
+.dots { text-align:center; margin-top:15px; }
+.dots span { display:inline-block; width:15px; height:15px; margin:5px; background:#ccc; border-radius:50%; cursor:pointer; transition:0.3s; }
+.dots .active { background:#ff6b6b; }
+
+/* Order Form */
+form { max-width:500px; margin:0 auto; background:white; padding:30px; border-radius:15px; box-shadow:0 6px 12px rgba(0,0,0,0.1); text-align:left; }
+form label { display:block; margin-top:15px; font-weight:600; color:#333; }
+form input, form select, form textarea { width:100%; padding:10px; margin-top:5px; border-radius:8px; border:1px solid #ccc; font-size:1em; }
+form button { margin-top:20px; background: linear-gradient(90deg,#1dd1a1,#10ac84); color:white; padding:15px 25px; border:none; border-radius:50px; font-weight:600; cursor:pointer; width:100%; font-size:1.1em; transition:0.3s; }
+form button:hover { transform: scale(1.05); }
+
+/* YouTube */
+#youtube iframe { border-radius:15px; box-shadow:0 6px 12px rgba(0,0,0,0.1); }
+#youtube a { display:inline-block; background:#FF0000; color:white; padding:12px 25px; border-radius:50px; text-decoration:none; font-weight:bold; margin-top:15px; transition:0.3s; }
+#youtube a:hover { transform:scale(1.05); }
+
+/* Contact */
+#contact a { color:#ff6b6b; text-decoration:none; font-weight:600; }
+#contact a:hover { text-decoration:underline; }
+
+/* Footer */
+footer { background:#333; color:white; text-align:center; padding:20px; font-size:0.9em; }
+
+/* Floating Social Buttons */
+.social-float { position:fixed; bottom:20px; width:60px; height:60px; border-radius:50%; text-align:center; font-size:30px; line-height:60px; color:white; text-decoration:none; box-shadow:0 6px 12px rgba(0,0,0,0.3); z-index:100; transition:transform 0.3s; }
+.social-float:hover { transform:scale(1.1); }
+.social-float.whatsapp { right:20px; background:#25D366; }
+.social-float.telegram { right:90px; background:#0088cc; }
+.social-float.instagram { right:160px; background:#c1358e; }
+.social-float.whatsapp-group{right:230px; background:#128C7E;}
+
+#qrcode { margin-top:20px; }
+@media(max-width:600px){ section { padding:40px 15px; } }
+/* Circle Logo */
+.logo-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  margin: 0 auto 15px;
+}
+
+.logo-circle img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-circle">
+    <img src="img5.jpeg" alt="">
+  </div>
+
+  <h1>BHUSHAN KHAIRNAR GFX</h1>
+  <nav>
+    <a href="#home">मुख्यपृष्ठ</a>
+    <a href="#gallery">पोस्टर डिझाईन्स</a>
+    <a href="#order">ऑर्डर करा</a>
+    <a href="#youtube">YouTube</a>
+    <a href="#contact">संपर्क</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>आपले स्वागत आहे!</h2>
+  <p>मिळवा सुंदर  रंगीत बॅनर आणि पोस्टर डिझाईन्स. कार्यक्रम, व्यवसाय किंवा सोशल मीडिया साठी सानुकूल डिझाईन!</p>
+  <p>वाढदिवस<br>निमंत्रण पत्रिका<br>लग्नाची पत्रिका<br>राजकीय जाहिरात<br>निवडणूक प्रचार डिझाइन<br>जयंती पुण्यतिथी डिझाइन<br>सन उत्सव डिझाइन<br>भेट कार्ड डिझाइन</p></br></br></br></br></br></br></br>
+</section>
+
+<section id="gallery">
+  <h2>पोस्टर डिझाईन्स </h2>
+  <div class="slider">
+    <div class="slides">
+      <img src="img1.jpeg" alt="बॅनर १">
+      <img src="img3.jpeg" alt="बॅनर २">
+      <img src="img2.jpeg" alt="बॅनर ३">
+      <img src="img4.jpeg" alt="बॅनर ४">
+    </div>
+    <div class="prev">&#10094;</div>
+    <div class="next">&#10095;</div>
+  </div>
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+
+  </div>
+</section>
+<section id="order">
+<h2><center>ORDER FORM</center></h2>
+<form id="orderForm">
+<label>नाव:</label>
+<input type="text" id="name" required>
+
+<label>बॅनर प्रकार:</label>
+<select id="banner" required>
+<option value="">--निवडा--</option>
+<option>इव्हेंट बॅनर</option>
+<option>बिझनेस बॅनर</option>
+<option>सोशल मीडिया पोस्टर</option>
+<option>फेस्टिव्ह बॅनर</option>
+</select>
+
+<label>आकार:</label>
+<input type="text" id="size" placeholder="1080x1920 px" required>
+
+<label>तपशील:</label>
+<textarea id="details" rows="4" required></textarea>
+
+<button type="submit">WhatsApp वर पाठवा</button>
+</form>
+
+
+
+<section id="youtube">
+  <h2>आमचा YouTube चॅनेल</h2>
+  <iframe width="100%" height="450" src="https://www.youtube.com/embed/तुमचा_व्हिडिओ_ID" 
+      title="YouTube video" frameborder="0" allowfullscreen></iframe>
+  <br>
+  <a href="https://youtube.com/@bhushankhairnargfx?si=GYweAcsoKeP9t8Pb" target="_blank">पूर्ण चॅनेल पहा</a>
+</section>
+
+<section id="contact">
+  <h2>संपर्क करा</h2>
+  <p>WhatsApp: <a href="https://wa.me/918600468169" target="_blank">8600468169</a></p>
+  <p>WhatsApp Group: <a href="https://chat.whatsapp.com/EN0Dq6uRfvL69koCBRVUwD" target="_blank">Join Group</a></p>
+  <p>Telegram: <a href="https://t.me/BhushanKhairnarGFX"  target="_blank">t.me/BhushanKhairnarGFX</a></p>
+  <p>Instagram: <a href="https://instagram.com/bhushankhairnargfx" target="_blank">@bhushankhairnargfx</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2026 BHUSHAN KHAIRNAR GFX | संपर्क: 8600468169</p>
+</footer>
+
+<!-- Floating social buttons -->
+<a href="https://wa.me/918600468169" target="_blank" class="social-float whatsapp">📱</a>
+<a href="https://chat.whatsapp.com/EN0Dq6uRfvL69koCBRVUwD" target="_blank" class="social-float whatsapp-group">👥</a>
+<a href="https://t.me/BhushanKhairnarGFX" target="_blank" class="social-float telegram">✈️</a>
+<a href="https://instagram.com/bhushankhairnargfx" target="_blank" class="social-float instagram">📸</a>
+<script>
+let index = 0;
+const slides = document.querySelector('.slides');
+const totalSlides = document.querySelectorAll('.slides img').length;
+const dots = document.querySelectorAll('.dot');
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+
+function showSlide(i) {
+  if (i >= totalSlides) index = 0;
+  if (i < 0) index = totalSlides - 1;
+
+  slides.style.transform = `translateX(-${index * 100}%)`;
+
+  dots.forEach(dot => dot.classList.remove('active'));
+  dots[index].classList.add('active');
+}
+
+next.addEventListener('click', () => {
+  index++;
+  showSlide(index);
+});
+
+prev.addEventListener('click', () => {
+  index--;
+  showSlide(index);
+});
+
+dots.forEach((dot, i) => {
+  dot.addEventListener('click', () => {
+    index = i;
+    showSlide(index);
+  });
+});
+
+/* Auto Slide */
+setInterval(() => {
+  index++;
+  showSlide(index);
+}, 3000);
+
+/*✅ WHATSAPP ORDER FUNCTION */
+document.getElementById("orderForm").addEventListener("submit",function(e){
+e.preventDefault();
+
+let name=document.getElementById("name").value;
+let banner=document.getElementById("banner").value;
+let size=document.getElementById("size").value;
+let details=document.getElementById("details").value;
+
+let phone="918600468169";
+
+let msg=
+"📌 New Banner Order%0A%0A"+
+"👤 नाव: "+name+"%0A"+
+"🎨 प्रकार: "+banner+"%0A"+
+"📐 आकार: "+size+"%0A"+
+"📝 तपशील: "+details;
+
+window.open("https://wa.me/"+phone+"?text="+msg,"_blank");
+});
+</script>
+</body>
+</html>
